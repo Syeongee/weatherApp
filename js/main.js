@@ -118,7 +118,7 @@ $(document).ready(function(){
         console.log(city_txt);
         cityName.unshift(city_txt); //cityName이라는 배열 데이터 자리 중 데이터의 첫번째 자리에 데이터를 추가한다.
         console.log(cityName);
-        $(this).remove(); //클릭한 버튼은 제거된다
+        // $(this).remove(); //클릭한 버튼은 제거된다
         w_info(); //함수 호출
         
     });
